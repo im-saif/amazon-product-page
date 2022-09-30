@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  background-color:#232F3E;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav img{
+  width: 140px;
+  height: 80px;
+  display: block;
+  position: relative;
+  left: 550px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.body{
+  display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+.img{
+  display: block;
+  position: relative;
+  left: 180px;
+  bottom: 70px;
+  width: 400px;
+  height: 450px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body h2{
+  position: relative;
+  left: 600px;
+  top: 70px;
+  font-size: 35px;
+  width: 500px;
+}
+
+.body h5{
+  position: relative;
+  left: 600px;
+  top: 100px;
+  width: 520px;
+  font-size: 16px;
+  color:darkslategray;
+}
+
+.select{
+  position: relative;
+  left: 600px;
+  top: 130px;
+  font-size: 22px;
+}
+
+.options{
+ display: inline-block;
+ width: 100px;
+ height: 100px;
+ position: relative;
+ left: 620px; 
+ bottom: 300px;
+}
+
+.color-border{
+  border: 3px solid teal ;
+  border-radius: 5px;
+}
+
+.features{
+  position: relative;
+  left: 600px;
+  bottom: 300px;
+  font-size: 22px ;
+}
+
+.body h3{
+  position: relative;
+  color: aliceblue;
+  left: 334px;
+  bottom: 425px;
+  font-size: 32px;
+}
+
+.body button{
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  left: 630px;
+  bottom: 280px;
+  width: 120px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.chosen-button{
+  background-color:grey;
+  color: aliceblue;
+}
+
+.body .heart{
+  position: relative;
+  left: 360px;
+  color:aliceblue;
+}
+
+.body .heart-gif{
+  width: 55px;
+  height: 70px;
+  position: relative;
+  left: 70px;
+  bottom: 560px;
+}
+
+.body .buy{
+  margin-top: 50px;
+  background-color: cadetblue;
+  position: relative;
+  left: 620px;
+}
+
+.body .buy strong{
+  font-size: 18px;
+  color: aliceblue;
 }
